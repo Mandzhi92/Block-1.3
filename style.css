@@ -114,10 +114,8 @@ header {
    margin-left: 60px;
    pointer-events: none;
 }
-.header__contacts {
-   display: none;
-}
-.header__restore {
+
+.header__contacts{
    display: flex;
 }
 
@@ -127,6 +125,7 @@ header {
    height: 40px;
    margin-right: 16px;
    background-image: url(assets/img/icon/repair.svg);
+   display: block;
 }
 .header__button-icon--repair::before {
    content: '';
@@ -143,6 +142,7 @@ header {
    background-color: #fff;
    width: 40px;
    height: 40px;
+   display: block;
    background-image: url(assets/img/icon/checkstatus.svg);
 }
 
